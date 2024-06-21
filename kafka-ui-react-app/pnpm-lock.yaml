@@ -124,7 +124,7 @@ dependencies:
     version: 4.2.1(typescript@4.7.4)(vite@4.0.5)
   whatwg-fetch:
     specifier: ^3.6.2
-    version: 3.6.2
+    version: 3.6.20
   yup:
     specifier: ^1.0.0
     version: 1.0.2
@@ -6808,8 +6808,8 @@ packages:
       iconv-lite: 0.6.3
     dev: true
 
-  /whatwg-fetch@3.6.2:
-    resolution: {integrity: sha512-bJlen0FcuU/0EMLrdbJ7zOnW6ITZLrZMIarMUVmdKtsGvZna8vxKYaexICWPfZ8qwf9fzNq+UEIZrnSaApt6RA==}
+  /whatwg-fetch@3.6.20:
+    resolution: {integrity: sha512-EqhiFU6daOA8kpjOWTL0olhVOF3i7OrFzSYiGsEMB8GcXS+RrzauAERX65xMeNWVqxA6HXH2m69Z9LaKKdisfg==}
     dev: false
 
   /whatwg-mimetype@3.0.0:
