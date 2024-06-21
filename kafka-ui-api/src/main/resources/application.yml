@@ -1,0 +1,21 @@
+auth:
+  type: DISABLED
+
+management:
+  endpoint:
+    info:
+      enabled: true
+    health:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "info,health,prometheus"
+
+logging:
+  level:
+    root: INFO
+    com.provectus: DEBUG
+    reactor.netty.http.server.AccessLog: INFO
+    org.hibernate.validator: WARN
+
